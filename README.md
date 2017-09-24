@@ -25,6 +25,7 @@ R code to convert all the empty strings into 'NULL' explicitly before saving out
 means you don't have to turn off quoting in R, which obviously has associated problems when the quotes are necessary.
 
 
+```
 CsvCompare usage: CsvCompare [-s <skip-line-count>] [-t] [-?|-h|--help] <left-file-name> <right-file-name>
     -s <line-count>   :  Skip the specified number of initial lines before comparison (defaults to 1)
     -t                :  trim whitespace
@@ -35,3 +36,4 @@ CsvCompare usage: CsvCompare [-s <skip-line-count>] [-t] [-?|-h|--help] <left-fi
  directory separators without escaping each one. Magical!
  Alternatively, you can use forward slashes in paths, Linux style, and they'll be converted to backslashes.
  You can also quote paths normally, Microsoft style.
+ ```
