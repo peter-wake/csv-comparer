@@ -30,7 +30,6 @@ CsvCompare usage: CsvCompare [-s <skip-line-count>] [-t] [-?|-h|--help] <left-fi
     -s <line-count>   :  Skip the specified number of initial lines before comparison (defaults to 1)
     -t                :  trim whitespace
     -? | -h | --help  :  show this help
-    
  ```
  
  You must specify two file names. This uses my Linuxish command line parser, and so you can write \ followed
