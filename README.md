@@ -31,9 +31,11 @@ CsvCompare usage: CsvCompare [-s <skip-line-count>] [-t] [-?|-h|--help] <left-fi
     -t                :  trim whitespace
     -? | -h | --help  :  show this help
     
+ ```
+ 
  You must specify two file names. This uses my Linuxish command line parser, and so you can write \ followed
  by a space, to escape spaces when paths with spaces in,  and despite this, backslashes will still work as
  directory separators without escaping each one. Magical!
  Alternatively, you can use forward slashes in paths, Linux style, and they'll be converted to backslashes.
  You can also quote paths normally, Microsoft style.
- ```
+ 
